@@ -1,0 +1,29 @@
+/* Global Styles */
+body { font-family: Arial, sans-serif; color: black; line-height: 1.6; }
+h1, h2, h3 { color: green; font-weight: bold; }
+h4, h5, h6 { color: darkgreen; }
+p { color: darkgray; }
+a { color: green; text-decoration: none; font-weight: bold; }
+a:hover { color: darkgreen; }
+
+/* Messages */
+.success-message, .error-message {
+    padding: 10px; border-radius: 5px; font-size: 14px;
+}
+.success-message { background: honeydew; color: green; border: 1px solid green; }
+.error-message { background: mistyrose; color: red; border: 1px solid red; }
+
+/* Buttons */
+button, .btn { background: green; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+button:hover, .btn:hover { background: darkgreen; }
+
+/* Table */
+th { background: green; color: white; padding: 12px; }
+td { padding: 10px; border-bottom: 1px solid lightgray; }
+tr:hover { background: whitesmoke; }
+
+/* Inputs & Textarea */
+input, textarea { width: 40%; padding: 12px; margin: 10px 0; border: 2px solid lightgray; border-radius: 5px; font-size: 16px; background: snow; }
+input:focus, textarea:focus { border-color: green; background: white; }
+input:hover, textarea:hover { border-color: green; background: whitesmoke; }
+textarea { resize: vertical; min-height: 100px; }
